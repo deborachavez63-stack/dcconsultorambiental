@@ -1,12 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>consultora</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Consultora de Gestión Ambiental</title>
+    <link rel="stylesheet" href="stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-accent">DC Gestión</span>Ambiental
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto" class="btn-nav">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <span class="badge">Sostenibilidad & Cumplimiento Normativo</span>
+            <h1>Gestión ambiental real, con soluciones que se notan</h1>
+            <p>Optimizamos la gestión ambiental de tu empresa con estrategia, rigor legal y eficacia operativa para garantizar el desarrollo sostenible de tus proyectos.</p>
+            <div class="hero-buttons">
+                <a href="#servicios" class="btn-main">Explorar Servicios</a>
+                <a href="https://wa.me/542324520026?text=Hola,%20quisiera%20consultar%20por%20los%20servicios%20de%20gesti%C3%B3n%20ambiental." class="btn-secondary-wsp" target="_blank" rel="noopener">
+                    Consulta Directa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="section-title">
+            <h2>Nuestros Servicios Integrales</h2>
+            <p>Ofrecemos acompañamiento técnico y legal diseñado a la medida de los desafíos industriales e institucionales de hoy.</p>
+        </div>
+        <div class="cards-grid">
+
+            <div class="card">
+                <div class="card-icon">🏛️</div>
+                <h3>Permisos y Habilitaciones</h3>
+                <p>Gestión eficiente de trámites y licencias ante ADA, Ministerio de Ambiente, INA y Municipalidades.</p>
+            </div>
+
+            <div class="card card-featured">
+                <div class="featured-tag">Normativa 2025</div>
+                <div class="card-icon">♻️</div>
+                <h3>Gestión de Residuos e Industriales</h3>
+                <p>Manejo integral de residuos especiales e industriales, aplicando la nueva <strong>Resolución 60/2025 sobre RINEs</strong>.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">⚖️</div>
+                <h3>Matriz Legal Ambiental</h3>
+                <p>Elaboración y actualización constante de la matriz legal para asegurar pleno cumplimiento de la normativa vigente.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📁</div>
+                <h3>Gestión Documental</h3>
+                <p>Organización e implementación de sistemas de gestión integral de documentos y registros ambientales.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h3>Capacitación de Personal</h3>
+                <p>Planes de capacitación técnica y concientización adaptados a los distintos niveles operativos y directivos de la empresa.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">⏰</div>
+                <h3>Seguimiento de Vencimientos</h3>
+                <p>Monitoreo activo y preventivo de fechas de vencimiento de permisos, auditorías y presentaciones reglamentarias.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Reportes Gerenciales</h3>
+                <p>Informes mensuales ejecutivos con el estado de cumplimiento ambiental para facilitar la toma de decisiones.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <h3>Indicadores de Gestión</h3>
+                <p>Seguimiento, análisis y evaluación de KPIs ambientales para la mejora continua del desempeño de su organización.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer & Contact CTA -->
+    <footer id="contacto" class="footer">
+        <div class="footer-container">
+            <div class="footer-cta">
+                <span class="cta-badge">Compromiso & Eficiencia</span>
+                <h2>¿El cumplimiento ambiental frena o impulsa el crecimiento de tu empresa?</h2>
+                <p class="quote">"Transformamos los requisitos normativos en soluciones ambientales prácticas, reales y rentables que resguardan el valor y la reputación de tu negocio."</p>
+
+                <a href="https://wa.me/542324520026?text=Hola,%20me%20gustar%C3%ADa%20coordinar%20una%20reuni%C3%B3n%20para%20evaluar%20la%20gesti%C3%B3n%20ambiental%20de%20mi%20empresa." class="btn-whatsapp" target="_blank" rel="noopener">
+                    <svg class="wsp-icon" viewBox="0 0 32 32">
+                        <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.138-2.135c2.372 1.292 5.062 1.972 7.862 1.972 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.387c-2.452 0-4.858-0.658-6.962-1.905l-0.5-0.297-5.172 1.357 1.38-5.042-0.328-0.522c-1.368-2.182-2.091-4.708-2.091-7.291 0-7.383 6.004-13.387 13.387-13.387s13.387 6.004 13.387 13.387c0 7.383-6.004 13.387-13.387 13.387zM22.723 19.342c-0.368-0.185-2.183-1.077-2.52-1.2-0.338-0.123-0.585-0.185-0.832 0.185s-0.957 1.2-1.172 1.447c-0.215 0.247-0.43 0.277-0.798 0.092s-1.558-0.575-2.968-1.833c-1.098-0.98-1.84-2.19-2.055-2.56-0.215-0.37-0.023-0.57 0.162-0.753 0.167-0.165 0.368-0.43 0.553-0.647 0.185-0.215 0.247-0.37 0.368-0.615 0.123-0.247 0.062-0.462-0.030-0.647s-0.832-2.003-1.14-2.743c-0.3-0.722-0.607-0.623-0.832-0.635-0.215-0.010-0.462-0.010-0.708-0.010s-0.647 0.092-0.985 0.462c-0.338 0.37-1.292 1.262-1.292 3.078s1.323 3.57 1.508 3.817c0.185 0.247 2.603 3.975 6.307 5.575 0.88 0.38 1.567 0.607 2.102 0.777 0.883 0.28 1.687 0.24 2.322 0.145 0.708-0.105 2.183-0.892 2.492-1.753 0.308-0.862 0.308-1.6 0.215-1.753-0.092-0.153-0.338-0.247-0.707-0.432z"></path>
+                    </svg>
+                    Contactar por WhatsApp
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Consultora de Gestión Ambiental. Soluciones corporativas integrales.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
